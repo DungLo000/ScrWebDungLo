@@ -25,27 +25,16 @@
     <div class="BlurWebs">
         <script>
       const audioList = [
-
-  "//thanhdieulua.ml/files/vtd_5.mp3",
-
-  "//thanhdieulua.ml/files/Hoi-Uc-Ta-Da-Yeu.mp3",
-
-   "//thanhdieulua.ml/files/vtd_4.mp3"
-
+  "https://thanhdieulua.ml/files/vtd_5.mp3",
+  "https://thanhdieulua.ml/files/Hoi-Uc-Ta-Da-Yeu.mp3",
+   "https://thanhdieulua.ml/files/vtd_4.mp3"
 ];
-
 let currentIndex = 0;
-
 let audio = new Audio(audioList[currentIndex]);
-
 function ThanhDieuMusic() {
-
   const randomIndex = Math.floor(Math.random() * audioList.length);
-
   currentIndex = randomIndex;
-
   audio.src = audioList[currentIndex];
-
   audio.play();
     </script>
     <div class="Topnav">
